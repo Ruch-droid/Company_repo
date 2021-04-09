@@ -1,0 +1,9 @@
+git clone https://github.com/Blind-coder-7/Company_repo.git
+git status
+ 1645  git add .
+ 1646  git status
+ 1647  git commit -m "add new file"
+ 1648  git confid --global user.email "devrahulb@gmail.com"
+ 1649  git config --global user.email "devrahulb@gmail.com"
+ 1650  git commit -m "add new file"
+ 1651  git push
