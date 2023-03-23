@@ -1,0 +1,18 @@
+sql 
+
+LOAD DATA INFILE 'final.csv' 
+INTO TABLE discounts 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+
+cmds for mongodb
+
+ mongoimport -d AIbot -c final --type CSV --file BOTNEW.csv --headerline --maintainInsertionOrder
+ mongoexport -d AIbot -c final -f token --type=csv -o /home/kkr/to/file.csv
+ mongoexport -d AIbot -c final --type=csv -o /home/kkr/to/file.csv
+ mongoimport -d AIbot -c geetadidi --type CSV --file /home/kkr/Downloads/bot.csv --headerline --maintainInsertionOrder
+ 
+ 
